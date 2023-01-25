@@ -1,27 +1,55 @@
-import { useEffect } from 'react';
+import styles from './style';
+import { NavBar, Hero, CTA, Footer } from './components';
 
-import * as THREE from 'three';
+const App = () => (
 
-import SceneInit from './assets/SceneInit.js';
+  <div class="bg-primary w-full overflow-hidden">
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <NavBar />
+        </div>
+      </div>
 
-function App() {
-  useEffect(() => {
-    const test = new SceneInit('myThreeJsCanvas');
-    test.initialize();
-    test.animate();
+      <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+            <Hero />
+        </div>
+      </div>
 
-    const boxGeometry = new THREE.BoxGeometry(16, 16, 16);
-    const boxMaterial = new THREE.MeshNormalMaterial();
-    const boxMesh = new THREE.Mesh(boxGeometry, boxMaterial);
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+            <CTA /> 
+            <Footer />
+        </div>
+      </div>
 
-    test.scene.add(boxMesh);
-  }, []);
 
-  return (
-    <div>
-      <canvas id="myThreeJsCanvas" />
     </div>
-  );
-}
+ );
+ export default App
+// function App() {
+  // useEffect(() => {
+  //   const test = new SceneInit('myThreeJsCanvas');
+  //   test.initialize();
+  //   test.animate();
 
-export default App;
+  //   const boxGeometry = new THREE.BoxGeometry(16, 16, 16);
+  //   const boxMaterial = new THREE.MeshNormalMaterial();
+  //   const boxMesh = new THREE.Mesh(boxGeometry, boxMaterial);
+
+  //   test.scene.add(boxMesh);
+
+  //   const animate = () => {
+  //       test.scene.rotation.x += 0.01;
+  //       test.scene.rotation.y += 0.01;
+  //       test.scene.rotation.z += 0.01;
+  //     window.requestAnimationFrame(animate);
+  //   };
+
+  // }, []);
+
+ 
+    // <div>
+    //   <canvas id="myThreeJsCanvas" />
+    // </div>
+  

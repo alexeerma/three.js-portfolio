@@ -23,6 +23,7 @@ export default class SceneInit {
     // NOTE: Lighting is basically required.
     this.ambientLight = undefined;
     this.directionalLight = undefined;
+  
   }
 
   initialize() {
@@ -86,9 +87,11 @@ export default class SceneInit {
     this.controls.update();
   }
 
+
   render() {
     // NOTE: Update uniform data on each render.
     // this.uniforms.u_time.value += this.clock.getDelta();
+    
     this.renderer.render(this.scene, this.camera);
   }
 
