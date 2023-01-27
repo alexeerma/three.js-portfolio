@@ -1,7 +1,7 @@
 import {useState} from 'react'
 
-import { close, logo, menu } from '../../../../React-portfolio/bank-app/src/assets';
-import { navLinks } from '../../../../React-portfolio/bank-app/src/constants';
+import { close, logo, menu } from '../assets';
+import { navLinks } from '../constants/index';
 
 const NavBar = () => {
   const [toggle, setToggle] = useState(false);  
