@@ -50,7 +50,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Javascript",
+    title: "Three.js",
     icon: backend,
   },
   {
