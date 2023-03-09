@@ -73,7 +73,7 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "Wordpress",
     icon: typescript,
   },
   {
