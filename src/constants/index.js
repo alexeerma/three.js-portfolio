@@ -190,7 +190,8 @@ const experiences = [
       "Implemented more coding and PHP. Started working on customizing Wordpress themes and creating some custom Wordpress plugins.",
       "Working on React components for Wordpress and React based Web Applications.",
       "Discovered Three.js and React Three Fiber for implementing 3D models into React based Web Applications. Learning to use them regulary on different Websites.",
-      "Coding different projects for learning purposes."
+      "Coding different projects for learning purposes.",
+      "Still learning to get better at coding :)",
     ],
   },
 ];
