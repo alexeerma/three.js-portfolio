@@ -42,35 +42,35 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Development",
+    title: "HTML",
     icon: web,
   },
   {
-    title: "Wordpress",
+    title: "Tailwind CSS",
     icon: mobile,
   },
   {
-    title: "Three.js",
+    title: "Javascript",
     icon: backend,
+  },
+  {
+    title: "React",
+    icon: creator,
+  },
+  {
+    title: "PHP",
+    icon: creator,
+  },
+  {
+    title: "Wordpress",
+    icon: creator,
   },
   {
     title: "Elementor",
     icon: creator,
   },
   {
-    title: "PHP",
-    icon: creator,
-  },
-  {
-    title: "PHP",
-    icon: creator,
-  },
-  {
-    title: "PHP",
-    icon: creator,
-  },
-  {
-    title: "PHP",
+    title: "Three.js",
     icon: creator,
   }
 ];
