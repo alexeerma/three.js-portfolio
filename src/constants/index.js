@@ -147,10 +147,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2016 - Feb 2020",
     points: [
-      "Started out",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Started out helping and managing logistical system and couriers. Helped put together the cost effective drive schedules.",
+      "Moved on to help with marketing and E-commerce website projects. Led the E-commerce site development project.",
+      "Implemented new featured in collaboration with the development team.",
+      
     ],
   },
   {
@@ -160,23 +160,23 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jul 2020 - Dec 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Started out as a System analyst intern. Worked on System Analysis for the existing CMS. Implemented new changes with developers.",
+      "Describing Use-Cases to implement new features to an existing Web Application.",
+      "Created a prototype for a new Content Management System.",
+      "Created tickets for developers to work on. Reviewed the changes in close collaboration with developers and designer.",
     ],
   },
   {
-    title: "Project Manager/Analyst",
+    title: "Product Owner/Analyst",
     company_name: "Acty Digital",
     icon: acty,
     iconBg: "#383E56",
     date: "Mar 2021 - Aug 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Main focus was on collaborating with clients and leading their E-commerce (mainly Magento based) projects.",
+      "Leading the product in Agile development. Implementing new features to existing projects and leading the new ones. Working with development team, creating development tickets. ",
+      "Created solution proposals, budget preparation and reviews.",
+      "Writing documentation and Use Cases for Business software connections with E-commerce sites.",
     ],
   },
   {
@@ -186,10 +186,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jul 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Started developing and designing website on Wordpress and Elementor. At the start mainly minor CSS and PHP changes.",
+      "Implemented more coding and PHP. Started working on customizing Wordpress themes and creating some custom Wordpress plugins.",
+      "Working on React components for Wordpress and React based Web Applications.",
+      "Discovered Three.js and React Three Fiber for implementing 3D models into React based Web Applications. Learning to use them regulary on different Websites.",
+      "Coding different projects for learning purposes."
     ],
   },
 ];
