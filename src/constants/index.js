@@ -1,3 +1,4 @@
+import { three } from "maath";
 import {
   mobile,
   backend,
@@ -23,6 +24,14 @@ import {
   jobit,
   tripguide,
   threejs,
+  wordpress,
+  php,
+  elementor,
+  foodmood,
+  acty,
+  smit, 
+  logo
+
 } from "../assets";
 
 export const navLinks = [
@@ -43,35 +52,35 @@ export const navLinks = [
 const services = [
   {
     title: "HTML",
-    icon: web,
+    icon: html,
   },
   {
     title: "Tailwind CSS",
-    icon: mobile,
+    icon: tailwind,
   },
   {
     title: "Javascript",
-    icon: backend,
+    icon: javascript,
   },
   {
     title: "React",
-    icon: creator,
+    icon: reactjs,
   },
   {
     title: "PHP",
-    icon: creator,
+    icon: php,
   },
   {
     title: "Wordpress",
-    icon: creator,
+    icon: wordpress,
   },
   {
     title: "Elementor",
-    icon: creator,
+    icon: elementor,
   },
   {
     title: "Three.js",
-    icon: creator,
+    icon: threejs,
   }
 ];
 
@@ -134,7 +143,7 @@ const experiences = [
   {
     title: "Project Manager/ Analyst",
     company_name: "LM Keskus",
-    icon: starbucks,
+    icon: foodmood,
     iconBg: "#383E56",
     date: "May 2016 - Feb 2020",
     points: [
@@ -147,7 +156,7 @@ const experiences = [
   {
     title: "IT Analyst",
     company_name: "SMIT",
-    icon: tesla,
+    icon: smit,
     iconBg: "#E6DEDD",
     date: "Jul 2020 - Dec 2020",
     points: [
@@ -160,7 +169,7 @@ const experiences = [
   {
     title: "Project Manager/Analyst",
     company_name: "Acty Digital",
-    icon: shopify,
+    icon: acty,
     iconBg: "#383E56",
     date: "Mar 2021 - Aug 2021",
     points: [
@@ -173,7 +182,7 @@ const experiences = [
   {
     title: "Freelance Web Developer",
     company_name: "Self-Employed",
-    icon: meta,
+    icon: logo,
     iconBg: "#E6DEDD",
     date: "Jul 2021 - Present",
     points: [

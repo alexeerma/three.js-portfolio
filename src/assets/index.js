@@ -30,6 +30,18 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import php from "./php.png";
+import wordpress from "./wordpress-icons8.png";
+import elementor from "./elementor.png";
+
+import foodmood from "./company/Foodmood.png";
+import acty from "./company/acty.jpeg";
+import smit from "./company/smit.png";
+
+
+
+
+
 export {
   logo,
   backend,
@@ -59,4 +71,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  php, 
+  elementor, 
+  wordpress,
+  foodmood, 
+  acty, 
+  smit, 
 };
