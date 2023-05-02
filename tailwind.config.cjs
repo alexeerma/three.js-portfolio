@@ -20,6 +20,13 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
+        "space-pattern": "url('/src/assets/space.jpg')",
+        "cat-pattern": "url('/src/assets/cat.jpg')",
+        "woods-pattern": "url('/src/assets/woods.jpg')",
+        "spaceship-pattern": "url('/src/assets/spaceship.jpg')",
+        "cosmos-pattern": "url('/src/assets/cosmos.jpg')",
+        "earth-pattern": "url('/src/assets/earth.jpg')",
+        "stars-pattern": "url('/src/assets/stars.jpg')",
       },
     },
   },
