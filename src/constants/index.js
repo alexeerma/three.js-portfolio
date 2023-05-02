@@ -30,7 +30,10 @@ import {
   foodmood,
   acty,
   smit, 
-  logo
+  logo,
+  auruproff,
+  bankapp,
+  conferelaw
 
 } from "../assets";
 
@@ -106,10 +109,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -118,8 +117,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Elementor",
+    icon: elementor,
   },
   {
     name: "Three JS",
@@ -132,10 +131,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -225,67 +220,67 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Auruproff",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Build on Wordpress with Elementor. Uses custom made designs. Everything ise built from zero using elementor including headers and footers.",
     tags: [
       {
-        name: "react",
+        name: "Wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Elementor",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Custom CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: auruproff,
+    source_code_link: "https://github.com/alexeerma/auruproff-react",
   },
   {
-    name: "Job IT",
+    name: "ConfereLaw",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Single-page Web application built with React.js and TailwindCSS using Vite. This Website was done as a side project. Custom design by GRL Digital.",
     tags: [
       {
-        name: "react",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "TailwindCSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Vite",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: conferelaw,
+    source_code_link: "https://github.com/alexeerma/Confere-react",
   },
   {
-    name: "Trip Guide",
+    name: "Bank-app",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Banking application made as a study project based on Javascript Mastery course. Single-page application was built using React.js, TailwindCSS.",
     tags: [
       {
-        name: "nextjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "TailwindCSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Study-project",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: bankapp,
+    source_code_link: "https://github.com/alexeerma/Bank-app-study",
   },
 ];
 

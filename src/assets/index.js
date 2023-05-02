@@ -38,6 +38,9 @@ import foodmood from "./company/Foodmood.png";
 import acty from "./company/acty.jpeg";
 import smit from "./company/smit.png";
 
+import auruproff from "./auruproff-min.png";
+import conferelaw from "./Conferelaw-min.png";
+import bankapp from "./Bank-app-min.png";
 
 
 
@@ -77,4 +80,7 @@ export {
   foodmood, 
   acty, 
   smit, 
+  auruproff,
+  conferelaw,
+  bankapp,
 };
