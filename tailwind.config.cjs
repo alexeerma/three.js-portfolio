@@ -27,6 +27,8 @@ module.exports = {
         "cosmos-pattern": "url('/src/assets/cosmos.jpg')",
         "earth-pattern": "url('/src/assets/earth.jpg')",
         "stars-pattern": "url('/src/assets/stars.jpg')",
+        "alex-pattern": "url('/src/assets/alex.jpeg')",
+        "alex2-pattern": "url('/src/assets/alex2.jpeg')",
       },
     },
   },
