@@ -222,7 +222,7 @@ const projects = [
   {
     name: "Auruproff",
     description:
-      "Build on Wordpress with Elementor. Uses custom made designs. Everything ise built from zero using elementor including headers and footers.",
+      "Build on Wordpress with Elementor. Uses custom made designs. Everything is built from zero using elementor including headers and footers.",
     tags: [
       {
         name: "Wordpress",
@@ -281,6 +281,69 @@ const projects = [
     ],
     image: bankapp,
     source_code_link: "https://github.com/alexeerma/Bank-app-study",
+  },
+  {
+    name: "ConfereLaw",
+    description:
+      "Single-page Web application built with React.js and TailwindCSS using Vite. This Website was done as a side project. Custom design by GRL Digital.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Vite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: conferelaw,
+    source_code_link: "https://github.com/alexeerma/Confere-react",
+  },
+  {
+    name: "ConfereLaw",
+    description:
+      "Single-page Web application built with React.js and TailwindCSS using Vite. This Website was done as a side project. Custom design by GRL Digital.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Vite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: conferelaw,
+    source_code_link: "https://github.com/alexeerma/Confere-react",
+  },
+  {
+    name: "ConfereLaw",
+    description:
+      "Single-page Web application built with React.js and TailwindCSS using Vite. This Website was done as a side project. Custom design by GRL Digital.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Vite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: conferelaw,
+    source_code_link: "https://github.com/alexeerma/Confere-react",
   },
 ];
 
