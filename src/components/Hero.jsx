@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import ReactTyped from "react-typed";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
@@ -16,7 +17,22 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hello, I'm <span className='text-[#10a25c]'>Alex</span>
+            Hello, I am  <span className='text-[#10a25c]'>
+              <ReactTyped
+                strings={[
+                  "Alex",
+                  "a Developer",
+                  "a Freelancer",
+                  "a Pro Athlete",
+                  "a Coding Enthusiast",
+                ]}
+                typeSpeed={150}
+                backDelay={100}
+                loop
+              
+              />
+              
+              </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop Wordpress websites, user <br className='sm:block hidden' />

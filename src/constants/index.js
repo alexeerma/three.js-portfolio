@@ -33,7 +33,10 @@ import {
   logo,
   auruproff,
   bankapp,
-  conferelaw
+  conferelaw,
+  car_showcase,
+  portfolio,
+  stockdash
 
 } from "../assets";
 
@@ -283,12 +286,12 @@ const projects = [
     source_code_link: "https://github.com/alexeerma/Bank-app-study",
   },
   {
-    name: "ConfereLaw",
+    name: "CarShow App",
     description:
-      "Single-page Web application built with React.js and TailwindCSS using Vite. This Website was done as a side project. Custom design by GRL Digital.",
+      "Next.js Web application built with Next.js and Tailwind. This Website was done as a side project as a part of Javascript Mastery tutorial.",
     tags: [
       {
-        name: "React.js",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
@@ -296,17 +299,17 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Vite",
+        name: "Typescript",
         color: "pink-text-gradient",
       },
     ],
-    image: conferelaw,
-    source_code_link: "https://github.com/alexeerma/Confere-react",
+    image: car_showcase,
+    source_code_link: "https://github.com/alexeerma/car-showcase",
   },
   {
-    name: "ConfereLaw",
+    name: "Three-js Portfolio",
     description:
-      "Single-page Web application built with React.js and TailwindCSS using Vite. This Website was done as a side project. Custom design by GRL Digital.",
+      "Custom Portfolio page using Three.js, Tailwind, VIte and Javascript. Was made as a project following Javascript Mastery. Uses custom imported 3D models.",
     tags: [
       {
         name: "React.js",
@@ -317,34 +320,40 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Vite",
+        name: "Three.js",
         color: "pink-text-gradient",
       },
     ],
-    image: conferelaw,
-    source_code_link: "https://github.com/alexeerma/Confere-react",
+    image: portfolio,
+    source_code_link: "https://github.com/alexeerma/three.js-portfolio",
   },
   {
-    name: "ConfereLaw",
+    name: "Stock-dashboard",
     description:
-      "Single-page Web application built with React.js and TailwindCSS using Vite. This Website was done as a side project. Custom design by GRL Digital.",
+      "Custom built stock portfolio dashboard, that uses API to follow stocks and prices, lets user input new stocks to look and etc. Currently working on it.",
     tags: [
       {
-        name: "React.js",
+        name: "Typescript",
         color: "blue-text-gradient",
       },
       {
-        name: "TailwindCSS",
+        name: "React.js",
         color: "green-text-gradient",
       },
       {
-        name: "Vite",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: conferelaw,
-    source_code_link: "https://github.com/alexeerma/Confere-react",
+    image: stockdash,
+    source_code_link: "https://github.com/alexeerma/personal-stock-dash",
   },
 ];
 
+
+
+
+
 export { services, technologies, experiences, projects };
+
+

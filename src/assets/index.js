@@ -43,6 +43,9 @@ import conferelaw from "./Conferelaw-min.png";
 import bankapp from "./Bank-app-min.png";
 
 
+import portfolio from "./portfolio.png";
+import car_showcase from "./car-showcase.png";
+import stockdash from "./stockdash.jpeg";
 
 
 export {
@@ -83,4 +86,7 @@ export {
   auruproff,
   conferelaw,
   bankapp,
+  car_showcase,
+  portfolio,
+  stockdash
 };
