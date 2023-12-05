@@ -50,7 +50,7 @@ const About = () => {
         I'm a junior software developer with experience in HTML, CSS and
         JavaScript. I also work with Wordpress, PHP and Elementor. 
         My main prefrence of front-end framework is React. Additionally I'm learning Three.js.
-        I'm a quick learner and love to work closely with clients to bring their ideas to life.
+        I'm a quick learner and love to work with clients to bring their ideas to life and help them and their business reach goals.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

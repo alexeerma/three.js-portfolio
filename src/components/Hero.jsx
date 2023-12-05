@@ -36,7 +36,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop Wordpress websites, user <br className='sm:block hidden' />
-            interfaces and React based web applications.
+            interfaces, React based web applications and occasionally including Three.js in conversation :)
           </p>
         </div>
       </div>
