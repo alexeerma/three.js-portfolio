@@ -36,7 +36,8 @@ import {
   conferelaw,
   car_showcase,
   portfolio,
-  stockdash
+  stockdash,
+  netflix
 
 } from "../assets";
 
@@ -267,7 +268,7 @@ const projects = [
   {
     name: "Bank-app",
     description:
-      "A Banking application made as a study project based on Javascript Mastery course. Single-page application was built using React.js, TailwindCSS.",
+      "A Banking application made as a personal project based on Javascript Mastery course. Single-page application was built using React.js, TailwindCSS.",
     tags: [
       {
         name: "React.js",
@@ -288,7 +289,7 @@ const projects = [
   {
     name: "CarShow App",
     description:
-      "Next.js Web application built with Next.js and Tailwind. This Website was done as a side project as a part of Javascript Mastery tutorial.",
+      "Next.js Web application built with Next.js and Tailwind. This Website was done as a side project.",
     tags: [
       {
         name: "Next.js",
@@ -307,25 +308,25 @@ const projects = [
     source_code_link: "https://github.com/alexeerma/car-showcase",
   },
   {
-    name: "Three-js Portfolio",
+    name: "Netflix Clone",
     description:
-      "Custom Portfolio page using Three.js, Tailwind, VIte and Javascript. Was made as a project following Javascript Mastery. Uses custom imported 3D models.",
+      "Coded a Netflix clone as a side project using using React, Typescript, TailwindCSS, Firebase and Authentication.",
     tags: [
       {
         name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "TailwindCSS",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
-        name: "Three.js",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: portfolio,
-    source_code_link: "https://github.com/alexeerma/three.js-portfolio",
+    image: netflix,
+    source_code_link: "https://github.com/alexeerma/netflix-clone",
   },
   {
     name: "Stock-dashboard",

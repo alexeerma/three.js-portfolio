@@ -46,6 +46,7 @@ import bankapp from "./Bank-app-min.png";
 import portfolio from "./portfolio.png";
 import car_showcase from "./car-showcase.png";
 import stockdash from "./stockdash.jpeg";
+import netflix from  "./netflix.png"
 
 
 export {
@@ -88,5 +89,6 @@ export {
   bankapp,
   car_showcase,
   portfolio,
-  stockdash
+  stockdash, 
+  netflix
 };
